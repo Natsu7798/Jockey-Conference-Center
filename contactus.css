@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: "Quicksand";
+    font-weight: 300;
+    font-size: 20px;
+    color: #52350A;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.logo{
+    margin-right: auto;
+    transition: all 0.5s ease 0s;
+}
+
+.logo:hover{
+  color: #E9D0AE;
+  letter-spacing: 1.5px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #E9D0AE;
+    letter-spacing: 1.5px;
+}
+
+.backimage2 img{
+    rotate: 180deg;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    opacity: 50%;
+}
+
+.contactustitle pre{
+    margin-top: -700px;
+    margin-left: -10px;
+    position: absolute;
+    background:  #d1d1d100;
+    font-size: 40px;
+    font-weight: 600;
+    color: #52350A;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 20px 20px;
+  margin-top: -620px;
+  margin-left: 125px;
+  border: #E9D0AE solid 3px;
+  border-radius: 5px;
+  border-color:  #E9D0AE;
+}
+
+input[type=text], input[type=email],
+input[type=phonenumber],
+textarea{
+  font-size: 15px;
+  width: 550px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: #E9D0AE 2px solid;
+}
+
+input[type="radio"]{
+  width: 140px;
+  margin-bottom: 0px;
+}
+
+label{
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.labelradio1{
+  display: flex;
+  background:  #d1d1d100;
+  position: absolute;
+  margin-top: -198px;
+  margin-left: 110px;
+  font-size: 15px;
+}
+
+.labelradio2{
+  display: flex;
+  background:  #d1d1d100;
+  position: absolute;
+  margin-top: -158px;
+  margin-left: 110px;
+  font-size: 15px;
+}
+
+.submitbutton{
+  width: 100px;
+  display: flex;
+  align-content: center;
+  font-size: 15px;
+  border: black 1px solid;
+  border-radius: 5px;
+}
+
+.boxfoot img{
+    display: flex;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  
+  .stayupdated pre{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 30px;
+    background: #d1d1d100;
+  }
+  
+  .perusahaan pre{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 80px;
+    background: #d1d1d100;
+  }
+  
+  
+  .subscribe img{
+    display: flex;
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 255px;
+    border-radius: 10px;
+  }
+  
+  .subsbutton{
+    display: flex;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    background-color: #58554C;
+    color: rgb(210, 190, 119);
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-left: 440px;
+    transition: .2s ease-out;
+  }  
+  .footersubt pre{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 600px;
+    font-size: 20;
+    font-weight: bolder;
+    color: #A78A6F;
+    background: #d1d1d100;
+  }
+  
+  .footsubabout pre{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 617px;
+    font-size: 15px;
+    font-weight: lighter;
+    columns: #6D6054;
+    background: #d1d1d100;
+  }
+  
+  .footsubcont pre{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 617px;
+    font-size: 15px;
+    font-weight: lighter;
+    columns: #6D6054;
+    background: #d1d1d100;
+  }
+  
+  .footsubeve pre{
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 617px;
+    font-size: 15px;
+    font-weight: lighter;
+    columns: #6D6054;
+    background: #d1d1d100;
+  }
+  
+  .footersubt2 pre{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 796px;
+    font-size: 20;
+    font-weight: bolder;
+    color: #A78A6F;
+    background: #d1d1d100;
+  }
+  
+  .footsubnum pre{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 813px;
+    font-size: 15px;
+    font-weight: lighter;
+    columns: #6D6054;
+    background: #d1d1d100;
+  }
+  
+  .footsubtmail pre{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 813px;
+    font-size: 15px;
+    font-weight: lighter;
+    columns: #6D6054;
+    background: #d1d1d100;
+  }
+  
+  .iglogofooter img{
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 115px;
+    margin-left: 857px;
+  }
+  
+  .fblogofooter img{
+    display: flex;
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    margin-top: 115px;
+    margin-left: 895px;
+  }
+  
+  .twitterlogofooter img{
+    display: flex;
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    margin-top: 115px;
+    margin-left: 935px;
+  }
+  
+  .footsubt3 pre{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1002px;
+    font-size: 20;
+    font-weight: bolder;
+    color: #A78A6F;
+    background: #d1d1d100;
+  }
+  
+  .footsubtprice pre{
+    position: absolute;
+      margin-top: 45px;
+      margin-left: 1018px;
+      font-size: 15px;
+      font-weight: lighter;
+      columns: #6D6054;
+      background: #d1d1d100;
+  }
+  
+  .footsubtloc pre{
+    position: absolute;
+    margin-top: 80px;
+      margin-left: 1018px;
+      font-size: 15px;
+      font-weight: lighter;
+      columns: #6D6054;
+      background: #d1d1d100;
+  } 

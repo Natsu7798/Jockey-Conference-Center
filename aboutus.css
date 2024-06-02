@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: "Quicksand";
+    font-weight: 300;
+    font-size: 20px;
+    color: #52350A;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.logo{
+    margin-right: auto;
+    transition: all 0.5s ease 0s;
+}
+
+.logo:hover{
+  color: #E9D0AE;
+  letter-spacing: 1.5px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #E9D0AE;
+    letter-spacing: 1.5px;
+}
+
+.bg1aboutus img{
+    display: flex;
+    margin-top: 0px;
+    opacity: 100%;
+    height: 650px;
+    width: 1263px;
+}
+
+.bg2aboutus img{
+    display: flex;
+    margin-top: 0px;
+    opacity: 100%;
+    width: 1263px;
+    height: 650px;
+    rotate: 180deg;
+}
+
+.cityimage img{
+    display: flex;
+    object-fit: fill;
+    width:500px;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -1200px;
+    margin-left: 75px;
+    transition: transform .2s;
+}
+  
+.cityimage img:hover{
+    transform: scale(1.1);
+}
+
+.aboutustitletext pre{
+    margin-top: -1210px;
+    margin-left: 500px;
+    position: absolute;
+    background:  #d1d1d100;
+    font-size: 40px;
+    font-weight: 600;
+    background: linear-gradient(
+      to right, #463324, #a38742);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+ 
+.infoaboutus p{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: -1010px;
+    margin-left: 635px;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 1000px;
+    text-shadow: black;
+    position: absolute;
+    background: #d1d1d100;
+}
+
+.infoaboutus2 p{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: -850px;
+    margin-left: 635px;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 1000px;
+    text-shadow: black;
+    position: absolute;
+    background: #d1d1d100;
+}
+
+.titleachievement pre{
+    display: flex;
+    margin-top: -580px;
+    margin-left: -55px;
+    position: absolute;
+    background:  #d1d1d100;
+    font-size: 40px;
+    font-weight: 600;
+    background: linear-gradient(
+      to right, #463324, #a38742);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.infoachievement p{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: -400px;
+    margin-left:75px;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 1000px;
+    text-shadow: black;
+    position: absolute;
+    background: #d1d1d100;
+}
+
+.infoachievement2 p{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: -250px;
+    margin-left: 75px;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 1000px;
+    text-shadow: black;
+    position: absolute;
+    background: #d1d1d100;
+}
+
+.achievement1 .title1 {
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    margin-top: -400px;
+    margin-left: 750px;
+    background: #d1d1d100;
+    color: #D1AB71;
+    font-weight: 600;
+}
+
+.achievement1 .subtitle1 {
+    display: flex;
+    position: absolute;
+    background: #d1d1d100;
+    font-size: 15px;
+    margin-top: -370px;
+    margin-left: 750px;
+}
+
+.achievement2 .title2 {
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    margin-top: -290px;
+    margin-left: 750px;
+    background: #d1d1d100;
+    color: #D1AB71;
+    font-weight: 600;
+}
+
+.achievement2 .subtitle2 {
+    display: flex;
+    position: absolute;
+    background: #d1d1d100;
+    font-size: 15px;
+    margin-top: -260px;
+    margin-left: 750px;
+}
+
+.achievement3 .title3 {
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    margin-top: -180px;
+    margin-left: 750px;
+    background: #d1d1d100;
+    color: #D1AB71;
+    font-weight: 600;
+}
+
+.achievement3 .subtitle3 {
+    display: flex;
+    position: absolute;
+    background: #d1d1d100;
+    font-size: 15px;
+    margin-top: -150px;
+    margin-left: 750px;
+}
+
+.boxfoot img{
+    display: flex;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  
+  .stayupdated pre{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 30px;
+    background: #d1d1d100;
+  }
+  
+  .perusahaan pre{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 80px;
+    background: #d1d1d100;
+  }
+  
+  
+  .subscribe img{
+    display: flex;
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 255px;
+    border-radius: 10px;
+  }
+  
+  .subsbutton{
+    display: flex;
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    background-color: #58554C;
+    color: rgb(210, 190, 119);
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-left: 440px;
+    transition: .2s ease-out;
+  }
+  
+  form{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 370px;
+  }
+  
+  input[type=text]{
+    width: 10%;
+    font-size: 12px;
+    position: absolute;
+    border-color: #D1AB71;
+    border-radius: 5px;
+    margin-left: -880px;
+    margin-top: 22px;
+    background-color: #FFFFFF;
+    transition: transform .2s;
+  }
+  
+  input[type=text]:hover{
+    transform: scale(1.1);
+  }
+  
+  
+  .footersubt pre{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 600px;
+    font-size: 20;
+    font-weight: bolder;
+    color: #A78A6F;
+    background: #d1d1d100;
+  }
+  
+  .footsubabout pre{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 617px;
+    font-size: 15px;
+    font-weight: lighter;
+    columns: #6D6054;
+    background: #d1d1d100;
+  }
+  
+  .footsubcont pre{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 617px;
+    font-size: 15px;
+    font-weight: lighter;
+    columns: #6D6054;
+    background: #d1d1d100;
+  }
+  
+  .footsubeve pre{
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 617px;
+    font-size: 15px;
+    font-weight: lighter;
+    columns: #6D6054;
+    background: #d1d1d100;
+  }
+  
+  .footersubt2 pre{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 796px;
+    font-size: 20;
+    font-weight: bolder;
+    color: #A78A6F;
+    background: #d1d1d100;
+  }
+  
+  .footsubnum pre{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 813px;
+    font-size: 15px;
+    font-weight: lighter;
+    columns: #6D6054;
+    background: #d1d1d100;
+  }
+  
+  .footsubtmail pre{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 813px;
+    font-size: 15px;
+    font-weight: lighter;
+    columns: #6D6054;
+    background: #d1d1d100;
+  }
+  
+  .iglogofooter img{
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 115px;
+    margin-left: 857px;
+  }
+  
+  .fblogofooter img{
+    display: flex;
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    margin-top: 115px;
+    margin-left: 895px;
+  }
+  
+  .twitterlogofooter img{
+    display: flex;
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    margin-top: 115px;
+    margin-left: 935px;
+  }
+  
+  .footsubt3 pre{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1002px;
+    font-size: 20;
+    font-weight: bolder;
+    color: #A78A6F;
+    background: #d1d1d100;
+  }
+  
+  .footsubtprice pre{
+    position: absolute;
+      margin-top: 45px;
+      margin-left: 1018px;
+      font-size: 15px;
+      font-weight: lighter;
+      columns: #6D6054;
+      background: #d1d1d100;
+  }
+  
+  .footsubtloc pre{
+    position: absolute;
+    margin-top: 80px;
+      margin-left: 1018px;
+      font-size: 15px;
+      font-weight: lighter;
+      columns: #6D6054;
+      background: #d1d1d100;
+  } 
+  
